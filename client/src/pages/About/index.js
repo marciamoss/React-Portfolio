@@ -18,17 +18,27 @@ function About() {
         <p>
         <b><em>"Do the best you can until you know better. 
           Then when you know better, do better."-- Maya Angelou</em><br/><br/>
-          That sums up in pretty much everything i do. Always striving for excellence and growth. 
+          That sums up in pretty much everything I do. Always striving for excellence and growth. 
           Professionally a computer science graduate and a certified Full stack developer with main focus being on MERN stack 
           (MongoDB, Express.js, React.js, Node.js). 
           My strength lies in never giving up, good work ethic 
-          and a student for life which means i never get stagnant.<br/><br/>
-          Education:<br/> 
+          and a student for life which means I never get stagnant.</b>
+          </p>
+          <p style={{fontSize:"14px"}}>
+          <b>Education:<br/>
           Full stack web development from UNC at Chapel Hill, NC<br/>
-          2018-2019<br/>
+          <em>2018-2019</em><br/>
           M.S. Computer Science, FDU, Teaneck NJ<br/>
-          2001-2003
-          </b>
+          <em>2001-2003</em><br/>
+          <em>Skills:<br/>
+          Express, Security and Sessions storage, User Authentication, MERN-Stack MongoDB, Express.js,
+          React.js, Node.js<br/>
+          MySQL, ORM, Sequelize, firebase, MongoDB.<br/>
+          Heroku & Git<br/>
+          HTML5/CSS, Javascript/Jquery, Responsive design, Bootstrap, Handlebars, Firebase,
+          cookies/localstorage, React.js, API consumption, Json, Cloud database usage.
+          </em>
+          </b>           
         </p>
       </div>
     </div>
