@@ -5,18 +5,18 @@ import PopUps from "../../components/PopUps";
 
 function validate(email) {
   if(email !== "undefined"){
-        let lastAtPos = email.lastIndexOf('@');
-        let lastDotPos = email.lastIndexOf('.');
-        if (!(lastAtPos < lastDotPos && lastAtPos > 0 && email.indexOf('@@') === -1 && lastDotPos > 2 && (email.length - lastDotPos) > 2)) {
-            return {
-                email: true
-            };
-        }else{
-            return {
-                email: false
-            };
-        }
-    }  
+    let lastAtPos = email.lastIndexOf('@');
+    let lastDotPos = email.lastIndexOf('.');
+    if (!(lastAtPos < lastDotPos && lastAtPos > 0 && email.indexOf('@@') === -1 && lastDotPos > 2 && (email.length - lastDotPos) > 2)) {
+        return {
+            email: true
+        };
+    }else{
+        return {
+            email: false
+        };
+    }
+  }  
 
 }
 
@@ -105,7 +105,7 @@ class Contact extends Component {
       <div className="container">
         <div className="row ">
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <h1 className="page-header">Contact<hr/></h1>
+            <h1 className="page-header" style={{fontSize:"15px"}}>Fill the form below to send a message(Submit button only activates for valid email address)<hr/></h1>
             <form className="form" onSubmit={this.handleSubmit}>
             <PopUps show={this.state.show} handleClose={this.state.handleClose} modaltxt={this.state.modaltxt}></PopUps>
               <div className="row">
