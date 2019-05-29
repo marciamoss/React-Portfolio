@@ -7,12 +7,14 @@ function About() {
     <div className="container">
     <div className="row">
       <div className="col-12 col-sm-12 col-md-5 col-lg-3 col-xl-3">
-        <div className="card">
-          <div className="img-container">
+        <div className="card" style={{fontSize:"12px", backgroundColor: "palevioletred", color:"white"}}>
+          <div className="img-container" >
             <img alt="M1" src={m1}></img> 
           </div>
+          <div className="card-footer" >
+          <b><p ><em>Click Contact above to connect.</em></p></b>
+          </div>
         </div>
-        <b><p><em>Use the contact tab above to connect with me.</em></p></b>
       </div>
       <div className="col-12 col-sm-12 col-md-7 col-lg-9 col-xl-9">
         <p>
