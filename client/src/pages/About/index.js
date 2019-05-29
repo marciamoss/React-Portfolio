@@ -36,7 +36,9 @@ function About() {
           MySQL, ORM, Sequelize, firebase, MongoDB.<br/>
           Heroku & Git<br/>
           HTML5/CSS, Javascript/Jquery, Responsive design, Bootstrap, Handlebars, Firebase,
-          cookies/localstorage, React.js, API consumption, Json, Cloud database usage.
+          cookies/localstorage, React.js, API consumption, Json, Cloud database usage.<br/>
+          SAS Certified Advanced Programmer for SAS 9 (05JUL2017)<br/>
+          SAS Certified Base Programmer for SAS 9 (15FEB2017)
           </em>
           </b>           
         </p>
