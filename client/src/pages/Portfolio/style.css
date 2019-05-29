@@ -35,6 +35,18 @@
     font-weight: bold;
 }
 
+.card{
+    height:275px;
+}
+.card-body{
+    height:150px;
+}
+.card-header{
+    height:85px;
+}
+.card-footer{
+    height:40px;
+}
 
   
  
