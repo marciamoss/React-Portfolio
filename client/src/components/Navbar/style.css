@@ -2,8 +2,8 @@
   width: 100%;
   font-size: 2rem;
   color: white; 
-  margin-bottom: 50px;
-  padding: 20px;
+  margin-bottom: 30px;
+  padding: 5px;
   background-color: palevioletred;
   justify-content: "flex-end"; 
 }

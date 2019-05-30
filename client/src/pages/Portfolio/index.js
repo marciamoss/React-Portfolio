@@ -18,7 +18,7 @@ import Trivia_game from "../../images/Trivia game.jpg";
 import StarwarsRPG from "../../images/StarwarsRPG.jpg";
 import crystalscollector from "../../images/crystalscollector.jpg";
 import wordguess from "../../images/wordguess.jpg";
-//import "./style.css";
+import "./style.css";
 
 function Portfolio() {
   return (
