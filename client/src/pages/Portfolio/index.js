@@ -40,7 +40,7 @@ function Portfolio() {
                         </div>
                         <div className="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
                             <div className="card bg-light mb-3">
-                                <div className="card-header" ><a href="https://fathomless-wildwood-49554.herokuapp.com/" target="blank" style={{color:"blue", textDecorationLine: 'underline'}}>React-Google-Book-Search</a></div>
+                                <div className="card-header" ><a href="https://fathomless-wildwood-49554.herokuapp.com/" target="blank" style={{color:"blue", textDecorationLine: 'underline'}}>React Google Book Search</a></div>
                                 <div className="card-body">
                                     <a href="https://fathomless-wildwood-49554.herokuapp.com/" target="blank"><img className="imgwidth4 bord" src={React_Google_Book_Search} alt="React-Google-Book-Search"></img></a>
                                 </div>
@@ -51,7 +51,7 @@ function Portfolio() {
                         </div>
                         <div className="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
                             <div className="card bg-light mb-3">
-                                <div className="card-header" ><a href="https://marciamoss.github.io/React-Clicky_Game" target="blank" style={{color:"blue", textDecorationLine: 'underline'}}>React-Clicky-Game</a></div>
+                                <div className="card-header" ><a href="https://marciamoss.github.io/React-Clicky_Game" target="blank" style={{color:"blue", textDecorationLine: 'underline'}}>React Clicky Game</a></div>
                                 <div className="card-body">
                                     <a href="https://marciamoss.github.io/React-Clicky_Game" target="blank"><img className="imgwidth4 bord" src={react_clicky_game} alt="React-Clicky-Game"></img></a>
                                 </div>
@@ -62,7 +62,7 @@ function Portfolio() {
                         </div>
                         <div className="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
                             <div className="card bg-light mb-3">
-                                <div className="card-header" ><a href="https://powerful-caverns-28906.herokuapp.com/" target="blank" style={{color:"blue", textDecorationLine: 'underline'}}>Mongo-Scraper</a></div>
+                                <div className="card-header" ><a href="https://powerful-caverns-28906.herokuapp.com/" target="blank" style={{color:"blue", textDecorationLine: 'underline'}}>Mongo Scraper</a></div>
                                 <div className="card-body">
                                     <a href="https://powerful-caverns-28906.herokuapp.com/" target="blank"><img className="imgwidth4 bord" src={MongoScraper} alt="MongoScraper"></img></a>
                                 </div>
@@ -84,7 +84,7 @@ function Portfolio() {
                         </div>
                         <div className="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
                             <div className="card bg-light mb-3">
-                                <div className="card-header" ><a href="https://damp-plains-34136.herokuapp.com/" target="blank" style={{color:"blue", textDecorationLine: 'underline'}}>SequelizedBurger</a></div>
+                                <div className="card-header" ><a href="https://damp-plains-34136.herokuapp.com/" target="blank" style={{color:"blue", textDecorationLine: 'underline'}}>Sequelized<br/>Burger</a></div>
                                 <div className="card-body">
                                     <a href="https://damp-plains-34136.herokuapp.com/" target="blank"><img className="imgwidth4 bord" src={SequelizedBurger} alt="SequelizedBurger"></img></a>
                                 </div>
@@ -106,7 +106,7 @@ function Portfolio() {
                         </div>
                         <div className="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
                             <div className="card bg-light mb-3">
-                                <div className="card-header" ><a href="https://blooming-woodland-51958.herokuapp.com/" target="blank" style={{color:"blue", textDecorationLine: 'underline'}}>FriendFinder</a></div>
+                                <div className="card-header" ><a href="https://blooming-woodland-51958.herokuapp.com/" target="blank" style={{color:"blue", textDecorationLine: 'underline'}}>Friend Finder</a></div>
                                 <div className="card-body">
                                     <a href="https://blooming-woodland-51958.herokuapp.com/" target="blank"><img className="imgwidth4 bord" src={FriendFinder} alt="FriendFinder"></img></a>
                                 </div>
@@ -132,7 +132,7 @@ function Portfolio() {
                         </div>
                         <div className="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
                             <div className="card bg-light mb-3">
-                                <div className="card-header" ><a href="https://github.com/marciamoss/Constructor-Word-Guess" target="blank" style={{color:"blue", textDecorationLine: 'underline'}}>Constructor-Word-Guess</a></div>
+                                <div className="card-header" ><a href="https://github.com/marciamoss/Constructor-Word-Guess" target="blank" style={{color:"blue", textDecorationLine: 'underline'}}>Constructor Word Guess</a></div>
                                 <div className="card-body">
                                     <a href="https://github.com/marciamoss/Constructor-Word-Guess" target="blank"><img className="imgwidth4 bord" src={constructor_wordgame} alt="Constructor-Word-Guess.js"></img></a>
                                     <a href="https://drive.google.com/open?id=1LzQMD9sZuWZM2pyDMPTID7hLDstYMJDZ" target="blank" style={{color:"blue", textDecorationLine: 'underline', fontSize:"12px"}}>Video</a>
@@ -144,7 +144,7 @@ function Portfolio() {
                         </div>
                         <div className="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
                             <div className="card bg-light mb-3">
-                                <div className="card-header" ><a href="https://github.com/marciamoss/liri-node-app" target="blank" style={{color:"blue", textDecorationLine: 'underline'}}>Liri_Node_js</a></div>
+                                <div className="card-header" ><a href="https://github.com/marciamoss/liri-node-app" target="blank" style={{color:"blue", textDecorationLine: 'underline'}}>Liri Node.js</a></div>
                                 <div className="card-body">
                                     <a href="https://github.com/marciamoss/liri-node-app" target="blank"><img className="imgwidth4 bord" src={liri} alt="Liri_Node_js"></img></a>
                                     <a href="https://drive.google.com/open?id=11q3r_v-y4sV5RPgg_-O7Hr5XWwjFpi9q" target="blank" style={{color:"blue", textDecorationLine: 'underline', fontSize:"12px"}}>Video1,</a>
@@ -159,7 +159,7 @@ function Portfolio() {
                         </div>
                         <div className="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
                             <div className="card bg-light mb-3">
-                                <div className="card-header" ><a href="https://marciamoss.github.io/Train_Activity/" target="blank" style={{color:"blue", textDecorationLine: 'underline'}}>Train_Activity</a></div>
+                                <div className="card-header" ><a href="https://marciamoss.github.io/Train_Activity/" target="blank" style={{color:"blue", textDecorationLine: 'underline'}}>Train Activity</a></div>
                                 <div className="card-body">
                                     <a href="https://marciamoss.github.io/Train_Activity/" target="blank"><img className="imgwidth4 bord" src={Train_Activity} alt="Train_Activity"></img></a>
                                 </div>
@@ -170,7 +170,7 @@ function Portfolio() {
                         </div>
                         <div className="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
                             <div className="card bg-light mb-3">
-                                <div className="card-header" ><a href="https://marciamoss.github.io/RPS-Multiplayer/" target="blank" style={{color:"blue", textDecorationLine: 'underline'}}>RPS-Multiplayer</a></div>
+                                <div className="card-header" ><a href="https://marciamoss.github.io/RPS-Multiplayer/" target="blank" style={{color:"blue", textDecorationLine: 'underline'}}>RPS Multiplayer</a></div>
                                 <div className="card-body">
                                     <a href="https://marciamoss.github.io/RPS-Multiplayer/" target="blank"><img className="imgwidth4 bord" src={RPS_Multiplayer} alt="RPS-Multiplayer"></img></a>
                                 </div>
