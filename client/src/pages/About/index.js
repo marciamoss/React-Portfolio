@@ -3,24 +3,8 @@ import "./style.css";
 import m1 from "../../images/m1.jpg";
 
 function About() {
-  const footer = {
-    background: "rgb(145, 140, 140)",
-    position: "absolute",
-    bottom: 0,
-    left: 0,
-    right: 0,
-    width: "100%",
-    height: "50px",
-    marginTop: "50px",
-    textAlign: "center",
-    borderStyle: "solid",
-    borderColor: "rgb(145, 140, 140)",
-    borderTopColor: "palevioletred",
-    borderWidth: "1px",
-    color: "white"
-  }
+
   return (
-    <div>
       <div className="container">
         <div className="row">
           <div className="col-12 col-sm-12 col-md-5 col-lg-3 col-xl-3">
@@ -64,10 +48,6 @@ function About() {
           </div>
         </div>
       </div>
-      <footer style={footer}>
-        <span className="small">&copy;Copyright</span>
-      </footer>
-    </div>
   );
 }
 

@@ -21,24 +21,7 @@ import wordguess from "../../images/wordguess.jpg";
 import "./style.css";
 
 function Portfolio() {
-    const footer = {
-        background: "rgb(145, 140, 140)",
-        position: "relative",
-        bottom: 0,
-        left: 0,
-        right: 0,
-        width: "100%",
-        height: "50px",
-        marginTop: "50px",
-        textAlign: "center",
-        borderStyle: "solid",
-        borderColor: "rgb(145, 140, 140)",
-        borderTopColor: "palevioletred",
-        borderWidth: "1px",
-        color: "white"
-      }
   return (
-    <div>
         <div className="container">
             <div className="row pagecolor">
                     <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 ">
@@ -255,10 +238,6 @@ function Portfolio() {
                     </div>
                 </div>
         </div>
-        <footer style={footer}>
-            <span className="small">&copy;Copyright</span>
-        </footer>
-    </div>
   );
 }
 
