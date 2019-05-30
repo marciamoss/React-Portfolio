@@ -100,54 +100,75 @@ class Contact extends Component {
 
       return hasError ? shouldShow : false;
     };
+    const footer = {
+      background: "rgb(145, 140, 140)",
+      position: "absolute",
+      bottom: 0,
+      left: 0,
+      right: 0,
+      width: "100%",
+      height: "50px",
+      marginTop: "50px",
+      textAlign: "center",
+      borderStyle: "solid",
+      borderColor: "rgb(145, 140, 140)",
+      borderTopColor: "palevioletred",
+      borderWidth: "1px",
+      color: "white"
+    }
 
     return (
-      <div className="container">
-        <div className="row ">
-          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <h1 className="page-header" style={{fontSize:"15px"}}>Fill the form below to send a message(Submit button only activates for valid email address)<hr/></h1>
-            <form className="form" onSubmit={this.handleSubmit}>
-            <PopUps show={this.state.show} handleClose={this.state.handleClose} modaltxt={this.state.modaltxt}></PopUps>
-              <div className="row">
-                <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-3">
+      <div>
+        <div className="container">
+          <div className="row ">
+            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <h1 className="page-header" style={{fontSize:"15px"}}>Fill the form below to send a message(Submit button only activates for valid email address)<hr/></h1>
+              <form className="form" onSubmit={this.handleSubmit}>
+              <PopUps show={this.state.show} handleClose={this.state.handleClose} modaltxt={this.state.modaltxt}></PopUps>
+                <div className="row">
+                  <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-3">
+                      <input
+                        type="text"
+                        placeholder="Enter name"
+                        value={this.state.name}
+                        name="name"
+                        onChange={this.handleEmailChange}
+                      />
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-3">
                     <input
+                      className={shouldMarkError("email") ? "error" : ""}
                       type="text"
-                      placeholder="Enter name"
-                      value={this.state.name}
-                      name="name"
+                      placeholder="Enter email"
+                      value={this.state.email}
+                      name="email"
                       onChange={this.handleEmailChange}
+                      onBlur={this.handleBlur("email")}
                     />
+                  </div>
                 </div>
-              </div>
-              <div className="row">
-                <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-3">
-                  <input
-                    className={shouldMarkError("email") ? "error" : ""}
-                    type="text"
-                    placeholder="Enter email"
-                    value={this.state.email}
-                    name="email"
-                    onChange={this.handleEmailChange}
-                    onBlur={this.handleBlur("email")}
-                  />
+                <div className="row">
+                  <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-3">
+                      <textarea
+                        type="text"
+                        placeholder="Enter message(Max 100 words)"
+                        value={this.state.message}
+                        name="message"
+                        rows="10"
+                        onChange={this.handleEmailChange}
+                      />
+                  </div>
                 </div>
-              </div>
-              <div className="row">
-                <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-3">
-                    <textarea
-                      type="text"
-                      placeholder="Enter message(Max 100 words)"
-                      value={this.state.message}
-                      name="message"
-                      rows="10"
-                      onChange={this.handleEmailChange}
-                    />
-                </div>
-              </div>
-              <button disabled={isDisabled}>Sign up</button>
-            </form>
+                <button disabled={isDisabled}>Sign up</button>
+              </form>
+            </div>
           </div>
         </div>
+        <footer style={footer}>
+          <span className="small">&copy;Copyright</span>
+        </footer>
       </div>
     );
   }
