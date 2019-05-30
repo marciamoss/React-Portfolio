@@ -5,7 +5,7 @@ import m1 from "../../images/m1.jpg";
 function About() {
 
   return (
-      <div className="container">
+      <div className="container aheight">
         <div className="row">
           <div className="col-12 col-sm-12 col-md-5 col-lg-3 col-xl-3">
             <div className="card" style={{fontSize:"12px", backgroundColor: "palevioletred", color:"white"}}>
