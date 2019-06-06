@@ -13,7 +13,7 @@ function About() {
                 <img alt="M1" src={m1}></img> 
               </div>
               <div className="card-footer" >
-              <b><p ><em>Click Contact above to connect.</em></p></b>
+              <b><p ><em><a href="/contact" target="blank">Click Contact above to connect.</a></em></p></b>
               </div>
             </div>
           </div>
