@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import m1 from "../../images/m1.jpg";
-import Contact from "../../pages/Contact";
+import { Link } from "react-router-dom";
 
 function About() {
 
@@ -14,7 +14,7 @@ function About() {
                 <img alt="M1" src={m1}></img> 
               </div>
               <div className="card-footer" >
-              <b><p ><em><a href="/contact" component={Contact} target="blank">Click Contact above to connect.</a></em></p></b>
+                <b><p ><em><Link to="/contact">Click Contact above to connect.</Link></em></p></b>
               </div>
             </div>
           </div>
