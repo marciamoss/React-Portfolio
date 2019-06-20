@@ -4,6 +4,7 @@ import sipSpot from "../../images/sipSpot.gif";
 import React_Google_Book_Search from "../../images/React_Google_Book_Search.jpg";
 import react_clicky_game from "../../images/react-clicky-game.jpg";
 import MongoScraper from "../../images/MongoScraper.jpg";
+import ReactMongoScraper from "../../images/ReactMongoScraper.jpg";
 import goTreeUrself from "../../images/goTreeUrself.jpg";
 import SequelizedBurger from "../../images/SequelizedBurger.jpg";
 import burger from "../../images/burger.jpg";
@@ -18,6 +19,7 @@ import Trivia_game from "../../images/Trivia game.jpg";
 import StarwarsRPG from "../../images/StarwarsRPG.jpg";
 import crystalscollector from "../../images/crystalscollector.jpg";
 import wordguess from "../../images/wordguess.jpg";
+import react_tip_calculator from "../../images/TipCalculator.jpg";
 import "./style.css";
 
 function Portfolio() {
@@ -40,6 +42,17 @@ function Portfolio() {
                             </div>
                             <div className="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
                                 <div className="card bg-light mb-3">
+                                    <div className="card-header" ><a href="https://gotreeurself.herokuapp.com/" target="blank" style={{color:"blue", textDecorationLine: 'underline'}}>goTreeUrself</a></div>
+                                    <div className="card-body">
+                                        <a href="https://gotreeurself.herokuapp.com/" target="blank"><img className="imgwidth4 bord" src={goTreeUrself} alt="goTreeUrself"></img></a>
+                                    </div>
+                                    <div className="card-footer">
+                                        <a href="https://github.com/ralracish/goTreeUrself" target="blank" style={{color:"blue", textDecorationLine: 'underline' }}>Github Repo</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
+                                <div className="card bg-light mb-3">
                                     <div className="card-header" ><a href="https://fathomless-wildwood-49554.herokuapp.com/" target="blank" style={{color:"blue", textDecorationLine: 'underline'}}>React Google Book Search</a></div>
                                     <div className="card-body">
                                         <a href="https://fathomless-wildwood-49554.herokuapp.com/" target="blank"><img className="imgwidth4 bord" src={React_Google_Book_Search} alt="React-Google-Book-Search"></img></a>
@@ -51,18 +64,18 @@ function Portfolio() {
                             </div>
                             <div className="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
                                 <div className="card bg-light mb-3">
-                                    <div className="card-header" ><a href="https://marciamoss.github.io/React-Clicky_Game" target="blank" style={{color:"blue", textDecorationLine: 'underline'}}>React Clicky Game</a></div>
+                                    <div className="card-header" ><a href="https://react-newsscraper.herokuapp.com/" target="blank" style={{color:"blue", textDecorationLine: 'underline'}}>React Mongo Scraper</a></div>
                                     <div className="card-body">
-                                        <a href="https://marciamoss.github.io/React-Clicky_Game" target="blank"><img className="imgwidth4 bord" src={react_clicky_game} alt="React-Clicky-Game"></img></a>
+                                        <a href="https://react-newsscraper.herokuapp.com/" target="blank"><img className="imgwidth4 bord" src={ReactMongoScraper} alt="ReactMongoScraper"></img></a>
                                     </div>
                                     <div className="card-footer">
-                                        <a href="https://github.com/marciamoss/React-Clicky_Game" target="blank" style={{color:"blue", textDecorationLine: 'underline' }}>Github Repo</a>
+                                        <a href="https://github.com/marciamoss/React-MongoScrape" target="blank" style={{color:"blue", textDecorationLine: 'underline' }}>Github Repo</a>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
                                 <div className="card bg-light mb-3">
-                                    <div className="card-header" ><a href="https://powerful-caverns-28906.herokuapp.com/" target="blank" style={{color:"blue", textDecorationLine: 'underline'}}>Mongo Scraper</a></div>
+                                    <div className="card-header" ><a href="https://powerful-caverns-28906.herokuapp.com/" target="blank" style={{color:"blue", textDecorationLine: 'underline'}}>Handlebars Mongo Scraper</a></div>
                                     <div className="card-body">
                                         <a href="https://powerful-caverns-28906.herokuapp.com/" target="blank"><img className="imgwidth4 bord" src={MongoScraper} alt="MongoScraper"></img></a>
                                     </div>
@@ -73,12 +86,23 @@ function Portfolio() {
                             </div>
                             <div className="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
                                 <div className="card bg-light mb-3">
-                                    <div className="card-header" ><a href="https://gotreeurself.herokuapp.com/" target="blank" style={{color:"blue", textDecorationLine: 'underline'}}>goTreeUrself</a></div>
+                                    <div className="card-header" ><a href="https://react-tip-calculator.herokuapp.com/" target="blank" style={{color:"blue", textDecorationLine: 'underline'}}>Tip Calculator</a></div>
                                     <div className="card-body">
-                                        <a href="https://gotreeurself.herokuapp.com/" target="blank"><img className="imgwidth4 bord" src={goTreeUrself} alt="goTreeUrself"></img></a>
+                                        <a href="https://react-tip-calculator.herokuapp.com/" target="blank"><img className="imgwidth4 bord" src={react_tip_calculator} alt="React-Tip-Calculator"></img></a>
                                     </div>
                                     <div className="card-footer">
-                                        <a href="https://github.com/ralracish/goTreeUrself" target="blank" style={{color:"blue", textDecorationLine: 'underline' }}>Github Repo</a>
+                                        <a href="https://github.com/marciamoss/TipCalculator" target="blank" style={{color:"blue", textDecorationLine: 'underline' }}>Github Repo</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
+                                <div className="card bg-light mb-3">
+                                    <div className="card-header" ><a href="https://marciamoss.github.io/React-Clicky_Game" target="blank" style={{color:"blue", textDecorationLine: 'underline'}}>React Clicky Game</a></div>
+                                    <div className="card-body">
+                                        <a href="https://marciamoss.github.io/React-Clicky_Game" target="blank"><img className="imgwidth4 bord" src={react_clicky_game} alt="React-Clicky-Game"></img></a>
+                                    </div>
+                                    <div className="card-footer">
+                                        <a href="https://github.com/marciamoss/React-Clicky_Game" target="blank" style={{color:"blue", textDecorationLine: 'underline' }}>Github Repo</a>
                                     </div>
                                 </div>
                             </div>
