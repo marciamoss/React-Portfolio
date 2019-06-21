@@ -8,7 +8,7 @@ function About() {
       <div className="container">
         <div className="row mb-5">
           <div className="col-12 col-sm-12 col-md-5 col-lg-3 col-xl-3 mb-5">
-            <div className="card" style={{fontSize:"15px", backgroundColor: "palevioletred", color:"white", textDecorationLine: 'underline'}}>
+            <div className="card mb-4" style={{fontSize:"15px", backgroundColor: "palevioletred", color:"white", textDecorationLine: 'underline'}}>
               <div className="img-container" >
                 <img alt="M1" src={process.env.PUBLIC_URL + '/images/m1.jpg'}></img> 
               </div>
