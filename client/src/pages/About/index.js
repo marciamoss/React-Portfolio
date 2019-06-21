@@ -15,7 +15,9 @@ function About() {
               <div className="card-footer" style={{textAlign:"center"}}>
                 <b><p ><em><Link to="/contact">Contact</Link></em></p></b>
                 <a href="https://github.com/marciamoss" target="blank" style={{ color:"#0A55E1", textDecorationLine: 'none'}}>Github <br/> </a>
-                <a href="https://www.linkedin.com/in/marcia-moss-056200175/" target="blank" style={{color:"#0A55E1", textDecorationLine: 'none'}}>Linkedin</a>
+                <a href="https://www.linkedin.com/in/marcia-moss-056200175/" target="blank" style={{color:"#0A55E1", textDecorationLine: 'none'}}>Linkedin <br/> </a>
+                <a href="https://docs.google.com/document/d/e/2PACX-1vQJTN5hPpAiePc44aeSjvwrXCB75x1a9QSJRRZ7g248g15KBL5focvxWMcxrtp3b_0t__uIwUn1_dRf/pub" target="blank" style={{color:"#0A55E1", textDecorationLine: 'none'}}>Resume</a>
+                
               </div>
             </div>
           </div>
