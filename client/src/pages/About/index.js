@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.css";
-import m1 from "../../images/m1.jpg";
 import { Link } from "react-router-dom";
 
 function About() {
@@ -11,7 +10,7 @@ function About() {
           <div className="col-12 col-sm-12 col-md-5 col-lg-3 col-xl-3">
             <div className="card" style={{fontSize:"12px", backgroundColor: "palevioletred", color:"white"}}>
               <div className="img-container" >
-                <img alt="M1" src={m1}></img> 
+                <img alt="M1" src={process.env.PUBLIC_URL + '/images/m1.jpg'}></img> 
               </div>
               <div className="card-footer" >
                 <b><p ><em><Link to="/contact">Click Contact above to connect.</Link></em></p></b>
@@ -28,7 +27,7 @@ function About() {
               My strength lies in never giving up, good work ethic 
               and a student for life which means I never get stagnant.</b>
               </p>
-              <p style={{fontSize:"14px"}}>
+              <p style={{fontSize:"14px"}} className="mb-5">
               <b>Education:<br/>
               Full stack web development from UNC at Chapel Hill, NC<br/>
               <em>2018-2019</em><br/>

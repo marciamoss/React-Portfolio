@@ -144,7 +144,7 @@ class Contact extends Component {
                       />
                   </div>
                 </div>
-                <button disabled={isDisabled}>Sign up</button>
+                <button className="mb-5" disabled={isDisabled}>Send</button>
               </form>
             </div>
           </div>
