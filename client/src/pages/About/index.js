@@ -5,15 +5,17 @@ import { Link } from "react-router-dom";
 function About() {
 
   return (
-      <div className="container aheight">
-        <div className="row">
-          <div className="col-12 col-sm-12 col-md-5 col-lg-3 col-xl-3">
-            <div className="card" style={{fontSize:"12px", backgroundColor: "palevioletred", color:"white"}}>
+      <div className="container">
+        <div className="row mb-5">
+          <div className="col-12 col-sm-12 col-md-5 col-lg-3 col-xl-3 mb-5">
+            <div className="card" style={{fontSize:"15px", backgroundColor: "palevioletred", color:"white", textDecorationLine: 'underline'}}>
               <div className="img-container" >
                 <img alt="M1" src={process.env.PUBLIC_URL + '/images/m1.jpg'}></img> 
               </div>
-              <div className="card-footer" >
-                <b><p ><em><Link to="/contact">Click Contact above to connect.</Link></em></p></b>
+              <div className="card-footer" style={{textAlign:"center"}}>
+                <b><p ><em><Link to="/contact">Contact</Link></em></p></b>
+                <a href="https://github.com/marciamoss" target="blank" style={{ color:"#0A55E1", textDecorationLine: 'none'}}>Github <br/> </a>
+                <a href="https://www.linkedin.com/in/marcia-moss-056200175/" target="blank" style={{color:"#0A55E1", textDecorationLine: 'none'}}>Linkedin</a>
               </div>
             </div>
           </div>
