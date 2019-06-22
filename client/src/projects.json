@@ -3,120 +3,155 @@
         "image": "/images/sipSpot.gif",
         "applink": "https://sipspot.herokuapp.com/",
         "githublink": "https://github.com/charlesmbrady/Project3",
-        "title": "sipSpot"
+        "title": "sipSpot",
+        "overview": "sipSpot uses geolocation and a simple click of a button to keep track of both where your things are, and your alcohol intake, when you're out on the town. When you click +Drink, sipSpot keeps track of the number of drinks you've had and the timeframe in which you've had them to constantly update an estimate of your Blood Alcohol Concentration (BAC).",
+        "techonologies": "React, Node, Express, Geolocation API, Axios, Javascript, Twillio" 
     }, 
     {
         "image": "/images/goTreeUrself.jpg",
         "applink": "https://gotreeurself.herokuapp.com/",
         "githublink": "https://github.com/ralracish/goTreeUrself",         
-        "title": "goTreeUrself"
+        "title": "goTreeUrself",
+        "overview": "goTreeUrself is a site promoting the importance of planting trees to help renew resources lost to mass deforestation. Encouraging people to plant a tree clearly has value but, for most people, it is an abstract idea. By putting 'pins' on a map showing where others have planted trees, goTreeUrself encourages participation and lets users show the world trees they care about - either ones they have planted or ones that are important in their lives.",
+        "techonologies": "Node, Handlebars, Sequelize, mySQL2, JawsDB, Google Maps, Filestack, Foundation and CSS Grid." 
     }, 
     {
         "image": "/images/React_Google_Book_Search.jpg",
         "applink": "https://fathomless-wildwood-49554.herokuapp.com/",
         "githublink": "https://github.com/marciamoss/React-Google-Book-Search",         
-        "title": "React Google Book Search"
+        "title": "React Google Book Search",
+        "overview": "React based app for google book search Search page: User searches for books via the Google Books API and the search results is rendered here. User has the option to 'View' a book which brings them to the book on Google Books, or 'Save' a book which saves it to the Mongo database. Saved page: Renders all books saved to the Mongo database. User has an option to 'View' the book, bringing them to the book on Google Books, or 'Delete' a book, removing it from the Mongo database.",
+        "techonologies": "React, Node, Express, Google Books API, Axios, Javascript, Bootstrap" 
     },
     {
         "image": "/images/ReactMongoScraper.jpg",
         "applink": "https://react-newsscraper.herokuapp.com/",
         "githublink": "https://github.com/marciamoss/React-MongoScrape",         
-        "title": "React Mongo Scraper"
+        "title": "React Mongo Scraper",
+        "overview": "A web app that lets users view and leave comments on the latest news scraped using Mongoose and Cheerio from https://www.nytimes.com.Users can leave comments on the articles displayed and can revisit them later. The comments are saved to the database as well and associated with their articles. Users can also delete comments left on articles. All stored comments are visible to every user. All scraped stories are unique and no duplicates are saved.",
+        "techonologies": "React, Node, Express, Cheerios, Axios, Javascript, Bootstrap" 
     },
     {
         "image": "/images/MongoScraper.jpg",
         "applink": "https://powerful-caverns-28906.herokuapp.com/",
         "githublink": "https://github.com/marciamoss/mongoscrape",         
-        "title": "Handlebars Mongo Scraper"
+        "title": "Handlebars Scraper",
+        "overview": "A web app that lets users view and leave comments on the latest news scraped using Mongoose and Cheerio from https://www.nytimes.com.Users can leave comments on the articles displayed and can revisit them later. The comments are saved to the database as well and associated with their articles. Users can also delete comments left on articles. All stored comments are visible to every user. All scraped stories are unique and no duplicates are saved.",
+        "techonologies": "Handlebars, Node, Express, Cheerios, Axios, Javascript, Jquery, Bootstrap" 
     },
     {
         "image": "/images/TipCalculator.jpg",
         "applink": "https://react-tip-calculator.herokuapp.com/",
         "githublink": "https://github.com/marciamoss/TipCalculator",         
-        "title": "Tip Calculator"
+        "title": "Tip Calculator",
+        "overview": "A tip calculator built on react. The app takes in the value of the bill and displays the tip options. The user can pick the predefined tip options or pick their own tip option using custom button. The custom tip option has two input either custom tip amount in dollars or custom tip amount in %. Depending on the user selection the app displays the bill amount, tip amount and total of both bill and tip together. The user has the option to split the bill by adding the number of people. When split option is selected, the bill, tip and total is displayed for each person.",
+        "techonologies": "React, Javascript" 
+
     },
     {
         "image": "/images/react-clicky-game.jpg",
         "applink": "https://marciamoss.github.io/React-Clicky_Game",
         "githublink": "https://github.com/marciamoss/React-Clicky_Game",         
-        "title": "React Clicky Game"
+        "title": "React Clicky Game",
+        "overview": "This app is a memory game with React.js. The user's score is incremented when clicking an image for the first time. The user's score resets to 0 if they click the same image more than once. Every time an image is clicked, the images rendered to the page shuffles themselves in a random order. Once the user's score is reset after an incorrect guess, the game restarts. The top score keeps track of the maximum score achieved by the user throughout all games during that session.",
+        "techonologies": "React, Javascript" 
     },
     {
         "image": "/images/SequelizedBurger.jpg",
         "applink": "https://damp-plains-34136.herokuapp.com/",
         "githublink": "https://github.com/marciamoss/sequelizedBurger",         
-        "title": "Sequelized Burger"
+        "title": "Sequelized Burger",
+        "overview": "Burger app is a restaurant app that lets users input the names of burgers they'd like to eat. Whenever a user submits a burger's name, the app will display the burger on the left side of the page along with a text box for user name entry-- waiting to be devoured. Each burger in the waiting area also has a devour It! button. When the user clicks it, the burger will move to the right side of the page. App has a Customer association table. This involved creating one new Customer model and connecting it with the Burger model. The app will store every burger in a database, whether devoured or not along with user associations.",
+        "techonologies": "Javascript, Sequelize, Sequelize associations, Node, Express and Handlebars"
     },
     {
         "image": "/images/burger.jpg",
         "applink": "https://salty-garden-86325.herokuapp.com/",
         "githublink": "https://github.com/marciamoss/burger",         
-        "title": "Eat Da Burger"
-    },
-    {
-        "image": "/images/FriendFinder.jpg",
-        "applink": "https://blooming-woodland-51958.herokuapp.com/",
-        "githublink": "https://github.com/marciamoss/FriendFinder",         
-        "title": "Friend Finder"
+        "title": "Eat Da Burger",
+        "overview": "Burger app is a restaurant app that lets users input the names of burgers they'd like to eat. Whenever a user submits a burger's name, the app will display the burger on the left side of the page -- waiting to be devoured. Each burger in the waiting area also has a devour It! button. When the user clicks it, the burger will move to the right side of the page. The app will store every burger in a database, whether devoured or not.",
+        "techonologies": "Javascript, Node, Express, Handlebars, MySQL"
     },
     {
         "image": "/images/bamazon.gif",
         "applink": "https://github.com/marciamoss/bamazon",
         "githublink": "https://github.com/marciamoss/bamazon",         
-        "title": "Bamazon"
+        "title": "Bamazon",
+        "overview": "Bamazon is an Amazon-like storefront created with the MySQL skills. There are three views built in this app: bamazonCustomer view, bamazonManager view and bamazonSupervisor view. The video Links demonstrates how each view operates.",
+        "techonologies": "Javascript, Node, MySQL"
     },
     {
         "image": "/images/constructor_wordgame.gif",
         "applink": "https://github.com/marciamoss/Constructor-Word-Guess",
         "githublink": "https://github.com/marciamoss/Constructor-Word-Guess",         
-        "title": "Constructor Word Guess"
+        "title": "Constructor Word Guess",
+        "overview": "A Constructor based node.js version of hangman game.  The video Links demonstrates how the game operates.", 
+        "techonologies": "Javascript, Node, Inquirer"
     },
     {
         "image": "/images/liri.gif",
         "applink": "https://github.com/marciamoss/liri-node-app",
         "githublink": "https://github.com/marciamoss/liri-node-app",         
-        "title": "Liri Node.js"
+        "title": "Liri Node.js",
+        "overview": "LIRI is a Language Interpretation and Recognition Interface. LIRI is a command line node app that takes in parameters and gives you back data. LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for movies. The video Links demonstrates how it operates.",
+        "techonologies": "Javascript, Node, Inquirer, Spotify API, OMDB api, Bands in town API, Axios"
+    },
+    {
+        "image": "/images/FriendFinder.jpg",
+        "applink": "https://blooming-woodland-51958.herokuapp.com/",
+        "githublink": "https://github.com/marciamoss/FriendFinder",         
+        "title": "Friend Finder",
+        "overview": "A dating app which is compatibility-based 'FriendFinder' application. This is a full-stack site which takes in results from user's surveys, then compares their answers with those from other users. The app will then display the name and picture of the user with the best overall match. The app uses Express to handle routing.",
+        "techonologies": "Javascript, Bootstrap, Jquery, Express"
     },
     {
         "image": "/images/Train_Activity.jpg",
         "applink": "https://marciamoss.github.io/Train_Activity/",
         "githublink": "https://github.com/marciamoss/Train_Activity",         
-        "title": "Train Activity"
+        "title": "Train Activity",
+        "overview": "A train schedule application that incorporates Firebase to host arrival and departure data. The app retrieves and manipulates the information with Moment.js. This website provides up-to-date information about various trains, namely their arrival times and how many minutes remain until they arrive at their station. When adding trains, administrators can submit the following: Train Name, Destination, First Train Time -- in military time, Frequency -- in minutes, This app calculates when the next train will arrive. This is relative to the current time. Users from many different machines can view same train times. The 'minutes to arrival' and 'next train time' text updates once every minute.",
+        "techonologies": "Javascript, Moment.js, Bootstrap, Jquery, Firebase"
     },
     {
         "image": "/images/RPS-Multiplayer.jpg",
         "applink": "https://marciamoss.github.io/RPS-Multiplayer/",
         "githublink": "https://github.com/marciamoss/RPS-Multiplayer",         
-        "title": "RPS Multiplayer"
+        "title": "RPS Multiplayer",
+        "overview": "project overview"
     },
     {
         "image": "/images/GifTastic.jpg",
         "applink": "https://marciamoss.github.io/GifTastic/",
         "githublink": "https://github.com/marciamoss/GifTastic",         
-        "title": "GifTastic"
+        "title": "GifTastic",
+        "overview": "project overview"
     },
     {
         "image": "/images/Trivia_game.jpg",
         "applink": "https://marciamoss.github.io/TriviaGame/",
         "githublink": "https://github.com/marciamoss/TriviaGame",         
-        "title": "Trivia Game"
+        "title": "Trivia Game",
+        "overview": "project overview"
     },
     {
         "image": "/images/StarwarsRPG.jpg",
         "applink": "https://marciamoss.github.io/Star-Wars-RPG-Game/",
         "githublink": "https://github.com/marciamoss/Star-Wars-RPG-Game",         
-        "title": "Starwars RPG Game"
+        "title": "Starwars RPG Game",
+        "overview": "project overview"
     },
     {
         "image": "/images/crystalscollector.jpg",
         "applink": "https://marciamoss.github.io/unit-4-game/",
         "githublink": "https://github.com/marciamoss/unit-4-game",         
-        "title": "Crystals Collector Game"
+        "title": "Crystals Collector Game",
+        "overview": "project overview"
     },
     {
         "image": "/images/wordguess.jpg",
         "applink": "https://marciamoss.github.io/Word-Guess-Game/",
         "githublink": "https://github.com/marciamoss/Word-Guess-Game",         
-        "title": "Word Guess Game"
+        "title": "Word Guess Game",
+        "overview": "project overview"
     }
 ]

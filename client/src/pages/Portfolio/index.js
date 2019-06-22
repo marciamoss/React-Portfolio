@@ -1,10 +1,20 @@
 import React, { Component } from "react";
 import "./style.css";
 import projects from "../../projects.json";
+import PopUps from "../../components/PopUps";
 
 class Portfolio extends Component {
     state = {
-        projects
+        projects,
+        show: false,
+        handleClose() {
+          this.setState({ show: false });
+        },
+        handleShow() {
+          this.setState({ show: true });
+        },
+        modaltxt:"",
+        techonologies: ""
     };
 
     render() {
@@ -13,11 +23,14 @@ class Portfolio extends Component {
                     <div className="row pagecolor">
                             <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 ">
                                 <h4 className="page-header">Portfolio<hr/></h4>
+                                <PopUps show={this.state.show} handleClose={this.state.handleClose} modaltxt={this.state.modaltxt} techonologies={this.state.techonologies}></PopUps>
                                 <div className="row "> 
                                     {this.state.projects.map((project, index) => (
                                         <div className="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2 mb-5" key={index}>
                                             <div className="card bg-light mb-3">
-                                                <div className="card-header" ><a href={project.applink} target="blank" style={{color:"blue", textDecorationLine: 'underline'}}>{project.title}</a></div>
+                                                <div className="card-header" style={{textAlign:"center"}}>
+                                                    <a href={project.applink} target="blank" style={{color:"#000000", textDecorationLine: 'underline', fontWeight:"bold"}}>{project.title}</a>
+                                                </div>
                                                 <div className="card-body">
                                                     <a href={project.applink} target="blank"><img className="imgwidth4 bord" src={process.env.PUBLIC_URL + project.image} alt={project.title}></img></a>
                                                     {project.title === "Bamazon" ? (
@@ -48,8 +61,19 @@ class Portfolio extends Component {
                                                         null
                                                     )}
                                                 </div>
-                                                <div className="card-footer">
-                                                    <a href={project.githublink} target="blank" style={{color:"blue", textDecorationLine: 'underline' }}>Github Repo</a>
+                                                <div className="card-footer" style={{textAlign:"center"}}>
+                                                    <button className=" mb-1" style={{color:"#000000", fontWeight:"bold", backgroundColor:"palegreen", fontSize:"15px"}}
+                                                            onClick=
+                                                            {(event) => 
+                                                            {
+                                                                event.preventDefault();
+                                                                let handleCloseCopy = this.state.handleClose.bind(this);
+                                                                this.setState({ show: true, modaltxt: project.overview, handleClose: handleCloseCopy, techonologies:project.techonologies});
+                                                            }
+                                                            }  >
+                                                            Overview
+                                                    </button>
+                                                    <a href={project.githublink} target="blank" style={{color:"#000000", textDecorationLine: 'underline', fontWeight:"bold" }}>Github</a>
                                                 </div>
                                             </div>
                                         </div>

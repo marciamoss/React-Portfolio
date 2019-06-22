@@ -8,16 +8,15 @@ function About() {
       <div className="container">
         <div className="row mb-5">
           <div className="col-12 col-sm-12 col-md-5 col-lg-3 col-xl-3 mb-5">
-            <div className="card mb-4" style={{fontSize:"15px", backgroundColor: "palevioletred", color:"white", textDecorationLine: 'underline'}}>
+            <div className="card mb-4" style={{fontSize:"15px", backgroundColor: "#c1ffb6"}}>
               <div className="img-container" >
                 <img alt="M1" src={process.env.PUBLIC_URL + '/images/m1.jpg'}></img> 
               </div>
-              <div className="card-footer" style={{textAlign:"center"}}>
-                <b><p ><em><Link to="/contact">Contact</Link></em></p></b>
-                <a href="https://github.com/marciamoss" target="blank" style={{ color:"#0A55E1", textDecorationLine: 'none'}}>Github <br/> </a>
-                <a href="https://www.linkedin.com/in/marcia-moss-056200175/" target="blank" style={{color:"#0A55E1", textDecorationLine: 'none'}}>Linkedin <br/> </a>
-                <a href="https://docs.google.com/document/d/e/2PACX-1vQJTN5hPpAiePc44aeSjvwrXCB75x1a9QSJRRZ7g248g15KBL5focvxWMcxrtp3b_0t__uIwUn1_dRf/pub" target="blank" style={{color:"#0A55E1", textDecorationLine: 'none'}}>Resume</a>
-                
+              <div style={{textAlign:"center", fontSize: "13px",fontStyle:"italic"}}>
+                <Link to="/contact" style={{color:"#00113a", fontWeight:"bold"}} >Email <br/> </Link>
+                <a href="https://github.com/marciamoss" target="blank" style={{ color:"#00113a"}}>Github <br/> </a>
+                <a href="https://www.linkedin.com/in/marcia-moss-056200175/" target="blank" style={{color:"#00113a"}}>Linkedin <br/> </a>
+                <a href="https://docs.google.com/document/d/e/2PACX-1vQJTN5hPpAiePc44aeSjvwrXCB75x1a9QSJRRZ7g248g15KBL5focvxWMcxrtp3b_0t__uIwUn1_dRf/pub" target="blank" style={{color:"#00113a"}}>Resume</a>
               </div>
             </div>
           </div>
