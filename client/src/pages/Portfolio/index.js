@@ -22,14 +22,14 @@ class Portfolio extends Component {
                 <div className="container">
                     <div className="row pagecolor">
                             <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 ">
-                                <h4 className="page-header">Portfolio<hr/></h4>
+                                <h4 className="page-header" style={{fontFamily: 'Times New Roman',color:"#000080"}}>Projects<hr/></h4>
                                 <PopUps show={this.state.show} handleClose={this.state.handleClose} modaltxt={this.state.modaltxt} techonologies={this.state.techonologies}></PopUps>
                                 <div className="row "> 
                                     {this.state.projects.map((project, index) => (
                                         <div className="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2 mb-5" key={index}>
                                             <div className="card bg-light mb-3">
                                                 <div className="card-header" style={{textAlign:"center"}}>
-                                                    <a href={project.applink} target="blank" style={{color:"#000000", textDecorationLine: 'underline', fontWeight:"bold"}}>{project.title}</a>
+                                                    <a href={project.applink} target="blank" style={{color:"#000000", textDecorationLine: 'underline', fontWeight:"bold", fontFamily: 'Times New Roman'}}>{project.title}</a>
                                                 </div>
                                                 <div className="card-body">
                                                     <a href={project.applink} target="blank"><img className="imgwidth4 bord" src={process.env.PUBLIC_URL + project.image} alt={project.title}></img></a>
@@ -62,7 +62,7 @@ class Portfolio extends Component {
                                                     )}
                                                 </div>
                                                 <div className="card-footer" style={{textAlign:"center"}}>
-                                                    <button className=" mb-1" style={{color:"#000000", fontWeight:"bold", backgroundColor:"palegreen", fontSize:"15px"}}
+                                                    <button className=" mb-1" style={{color:"#000000", fontWeight:"bold", backgroundColor:"palegreen", fontSize:"15px", fontFamily: 'Times New Roman'}}
                                                             onClick=
                                                             {(event) => 
                                                             {
@@ -73,7 +73,7 @@ class Portfolio extends Component {
                                                             }  >
                                                             Overview
                                                     </button>
-                                                    <a href={project.githublink} target="blank" style={{color:"#000000", textDecorationLine: 'underline', fontWeight:"bold" }}>Github</a>
+                                                    <a href={project.githublink} target="blank" style={{color:"#000000", textDecorationLine: 'underline', fontWeight:"bold", fontFamily: 'Times New Roman' }}>Github</a>
                                                 </div>
                                             </div>
                                         </div>

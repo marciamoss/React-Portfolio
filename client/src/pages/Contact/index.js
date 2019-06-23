@@ -105,7 +105,7 @@ class Contact extends Component {
         <div className="container">
           <div className="row ">
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-              <h1 className="page-header" style={{fontSize:"15px"}}>Fill the form below to send a message(Submit button only activates for valid email address)<hr/></h1>
+              <h1 className="page-header" style={{fontSize:"15px", color:"#000080", fontFamily: 'Times New Roman'}}>Fill the form below to send a message(Submit button only activates for valid email address)<hr/></h1>
               <form className="form" onSubmit={this.handleSubmit}>
               <PopUps show={this.state.show} handleClose={this.state.handleClose} modaltxt={this.state.modaltxt}></PopUps>
                 <div className="row">

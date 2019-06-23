@@ -7,12 +7,12 @@ function Navbar() {
     <nav className="navdeco">
       <div className="container">
       <div className="row">
-        <div className="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+        <div className="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-8">
           <Link className="navbar-brand" to="/">
             Marcia Moss
           </Link>
         </div>
-        <div className="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+        <div className="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-4">
           <Link className="navbar-brand" to="/">
             About&nbsp;&nbsp;|
           </Link>
