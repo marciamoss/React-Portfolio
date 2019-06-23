@@ -117,41 +117,47 @@
         "applink": "https://marciamoss.github.io/RPS-Multiplayer/",
         "githublink": "https://github.com/marciamoss/RPS-Multiplayer",         
         "title": "RPS Multiplayer",
-        "overview": "project overview"
+        "overview": "Online multiplayer Rock Paper Scissors game. Uses Firebase for data storge.",
+        "techonologies": "Javascript, Bootstrap, Jquery, Firebase"
     },
     {
         "image": "/images/GifTastic.jpg",
         "applink": "https://marciamoss.github.io/GifTastic/",
         "githublink": "https://github.com/marciamoss/GifTastic",         
         "title": "GifTastic",
-        "overview": "project overview"
+        "overview": "This application uses the GIPHY API to make a dynamic web page that populates with gifs of users choice. When the user clicks on a button, the page grabs 10 static, non-animated gif images from the GIPHY API and places them on the page. When the user clicks one of the still GIPHY images, the gif animates. If the user clicks the gif again, it stops playing. Under every gif, displayed is its rating 'Add a bird' takes the value from the user input and adds the button for that corresponding topic on the page. App is fully mobile responsive. 'Load 10 more Gif's button' allows users to request additional gifs to be added to the page. Each request ADDs 10 gifs to the page upto 400 for one particular topic. Users can add their favorite gifs to a favorites section by clicking the HEART icon under the image.",
+        "techonologies": "Javascript, Bootstrap, Jquery, Giphy API"
     },
     {
         "image": "/images/Trivia_game.jpg",
         "applink": "https://marciamoss.github.io/TriviaGame/",
         "githublink": "https://github.com/marciamoss/TriviaGame",         
         "title": "Trivia Game",
-        "overview": "project overview"
+        "overview": "Trivia game that shows only one question until the player answers it or their time runs out. If the player selects the correct answer, the screen changes congratulating them for choosing the right option. After a few seconds, displays the next question -- without user input. The scenario is similar for wrong answers and time-outs. If the player runs out of time, the screen shows that time's up and displays the correct answer. Waits a few seconds, then shows the next question. If the player chooses the wrong answer, the screen shows that the player selected the wrong option and displays the correct answer. Waits a few seconds, then show the next question. On the final screen shows the number of correct answers, incorrect answers, and an option to restart the game.",
+        "techonologies": "Javascript, Bootstrap, Jquery"
     },
     {
         "image": "/images/StarwarsRPG.jpg",
         "applink": "https://marciamoss.github.io/Star-Wars-RPG-Game/",
         "githublink": "https://github.com/marciamoss/Star-Wars-RPG-Game",         
         "title": "Starwars RPG Game",
-        "overview": "project overview"
+        "overview": "Once the player clicks on the available characters the player takes on the role of that character. Rest become the enemies the player needs to defeat. Each character in the game has 3 attributes: Health Points, Attack Power and Counter Attack Power. Each time the player attacks, their character's Attack Power increases by its base Attack Power. For example, if the base Attack Power is 6, each attack will increase the Attack Power by 6 (12, 18, 24, 30 and so on). The enemy character only has Counter Attack Power. Unlike the player's Attack Points, Counter Attack Power never changes. No characters in the game can heal or recover Health Points. A winning player must pick their characters wisely by first fighting an enemy with low Counter Attack Power. This will allow them to grind Attack Power and to take on enemies before they lose all of their Health Points. The challenge comes from picking the right enemies, not choosing the strongest player.",
+        "techonologies": "Javascript, Bootstrap, Jquery"
     },
     {
         "image": "/images/crystalscollector.jpg",
         "applink": "https://marciamoss.github.io/unit-4-game/",
         "githublink": "https://github.com/marciamoss/unit-4-game",         
         "title": "Crystals Collector Game",
-        "overview": "project overview"
+        "overview": "There will be four crystals displayed as buttons on the page. The player will be shown a random number at the start of the game. When the player clicks on a crystal, it will add a specific amount of points to the player's total score. The game will hide this amount until the player clicks a crystal. When they do click one, the player's score counter is updated. The player wins if their total score matches the random number from the beginning of the game. The player loses if their score goes above the random number. The game restarts whenever the player wins or loses. When the game begins again, the player should see a new random number. Also, all the crystals will have four new hidden values. The user's score (and score counter) will reset to zero. The app shows the number of games the player wins and loses. If the page is refreshed the game is restarted from the begining.",
+        "techonologies": "Javascript, Bootstrap, Jquery"
     },
     {
         "image": "/images/wordguess.jpg",
         "applink": "https://marciamoss.github.io/Word-Guess-Game/",
         "githublink": "https://github.com/marciamoss/Word-Guess-Game",         
         "title": "Word Guess Game",
-        "overview": "project overview"
+        "overview": "A hangman game where the player has 10 guesses to get the word right. The guess goes down each time a letter is clicked. If the letter is part of the word it dispalys at the location it originally is.. The count does not change if the player picks the same letter twice or the letter is part of the word. Different Audio plays each for winning and losing.",
+        "techonologies": "Javascript, Bootstrap, Jquery"
     }
 ]
