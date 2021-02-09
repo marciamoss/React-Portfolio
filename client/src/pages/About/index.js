@@ -22,7 +22,7 @@ function About() {
           </div>
           <div className="col-12 col-sm-12 col-md-7 col-lg-9 col-xl-9" style={{fontFamily: 'Times New Roman', color:"#000080"}}>
             <p>
-            <b><em>Maya Angelo perfectly sums up the way I work in her quote, "Do the best you can until you know better.
+            <b><em>Maya Angelou perfectly sums up the way I work in her quote, "Do the best you can until you know better.
               Then when you know better, do better."</em><br/><br/></b>
               I’m a full stack developer who is always striving for excellence and growth.
               I specialize in JavaScript technologies across the MERN & MEAN stack (Mongo DB, Express.js, React.js, Angular and Node.js).
