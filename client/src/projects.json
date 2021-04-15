@@ -40,6 +40,15 @@
         "techonologies": "Handlebars, Node, Express, Cheerios, Axios, Javascript, Jquery, Bootstrap" 
     },
     {
+        "image": "/images/ClimbingStairs.jpg",
+        "applink": "https://climbing-stairs.herokuapp.com/",
+        "githublink": "https://github.com/marciamoss/climbing-stairs",
+        "title": "Climbing Stairs",
+        "overview": "A Climbing Stairs combination calculator built on react. The app takes in total number of steps as a positive integer and calculate number of ways you can get to the top using 1 or 2 steps at a time.",
+        "techonologies": "React, Javascript"
+
+    },
+    {
         "image": "/images/TipCalculator.jpg",
         "applink": "https://react-tip-calculator.herokuapp.com/",
         "githublink": "https://github.com/marciamoss/TipCalculator",         
